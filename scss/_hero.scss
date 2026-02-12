@@ -1,0 +1,103 @@
+.hero__card{
+    width: 228px;
+    height: 245px;
+
+}
+.hero__wrapper{
+    max-width: 1240px;
+    height: 341px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+.hero__card strong{
+    font-family: sans-serif ;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 135%;
+        letter-spacing: 0%;
+        margin-bottom: 16px;
+}
+.hero__card img{
+    margin-bottom: 24px;
+    display: block;
+}
+.hero__card p{
+    font-family: 'PT Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        margin-top: 16px;
+        color: #6B6B6C;
+}
+.hero{
+    margin-top: 67px;
+}
+@media(max-width:1000px){
+    .hero__wrapper {
+         box-shadow: none;
+         flex-direction: column;
+        }
+
+        .fff{
+            display: none;
+        }
+        .hero__card div{
+           width: 394px;
+        }
+        .hero__card{
+            width: 690px;
+            height: 300px;
+            display: flex;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-bottom: 20px;
+            padding-top: 35px;
+            padding-bottom: 20px;
+            padding-left: 32px;
+            padding-right: 140px;
+            gap: 32px;
+        }
+}
+@media(max-width:600px){
+    .hero__card{
+        box-shadow: none;
+        flex-direction: column;
+       width: 199px;
+        padding: 0;
+        justify-content: center;
+        margin: 0;
+        margin-right: 220px;
+        margin-left: 50px;
+
+    }
+    .hero__wrapper{
+        
+        width: 445px;
+        height: 638px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+       padding-right: 10px;
+     
+
+       
+    }
+    .hero__card strong{
+        font-size: 18px;
+
+    }
+    .hero__card p{
+        font-size: 15px;
+        margin: 0;
+
+    }
+    .hero__card img{
+        margin: 0;
+    }
+
+}
